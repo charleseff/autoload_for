@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "autoload_for/version"
+require "autoload_for"
 
 Gem::Specification.new do |s|
   s.name        = "autoload_for"
