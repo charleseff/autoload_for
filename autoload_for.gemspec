@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Charles Finkel"]
   s.email       = ["charles.finkel@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/charleseff/autoload_for"
   s.summary     = %q{Have your classes in a directory autoloaded, just like Rails does with app/models, app/controllers, etc.}
   s.description = %q{Have your classes in a directory autoloaded, just like Rails does with app/models, app/controllers, etc.}
 

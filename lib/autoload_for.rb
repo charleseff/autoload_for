@@ -1,7 +1,7 @@
 require 'active_support/core_ext'
 
 module AutoloadFor
-  VERSION = '0.0.1'
+  VERSION = '0.0.2'
 
   def autoload_for(dir)
     Dir.glob(File.join(dir, "**/")).each do |inner_dir|
