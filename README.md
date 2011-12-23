@@ -1,3 +1,9 @@
+NOTE: autoload_for is deprecated, use ActiveSupport::Dependencies instead, which works the same way:
+    
+    require 'active_support/dependencies'
+    ActiveSupport::Dependencies.autoload_paths << "/path/to/directory"
+
+
 autoload_for
 ====
 
